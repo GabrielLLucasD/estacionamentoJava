@@ -37,6 +37,7 @@ O "EstacionaShon" é um sistema de gerenciamento de estacionamentos para diferen
 - **Veículo**: Armazena informações sobre os veículos cadastrados e relaciona cada veículo a um motorista.
   - `id` (PK)
   - `placa`
+  - `documento`
   - `modelo`
   - `cor`
   - `motorista_id` (FK para Motorista)
